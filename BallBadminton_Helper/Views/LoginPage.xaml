@@ -4,9 +4,11 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="BallBadminton_Helper.Views.LoginPage"
+             x:Class="BallBadminton_Helper.Views.LoginPage"  
+             Title="Ball Badminton Scorer"     
+             IconImageSource="BBScore.jpg"
              Shell.NavBarIsVisible="False">
-    <ContentPage.Content>
+    <ContentPage.Content >
         <StackLayout Padding="10,0,10,0" VerticalOptions="Center">
             <Button VerticalOptions="Center" Text="Login" Command="{Binding LoginCommand}"/>
         </StackLayout>
